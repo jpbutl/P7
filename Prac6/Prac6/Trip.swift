@@ -1,6 +1,6 @@
 //
 //  Trip.swift
-//  Prac6
+//  Prac7
 //
 //  Created by JULIAN BUTLER on 20/04/2017.
 //  Copyright © 2017 JULIAN BUTLER. All rights reserved.

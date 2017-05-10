@@ -11,6 +11,9 @@
 		485170EC1EA88BC2008E15CD /* TblViewControllerTripInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170EB1EA88BC2008E15CD /* TblViewControllerTripInfo.swift */; };
 		485170EE1EA88C88008E15CD /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485170ED1EA88C88008E15CD /* Trip.swift */; };
 		485440EF1EBAC81300E0EE08 /* TripsMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485440EE1EBAC81300E0EE08 /* TripsMapViewController.swift */; };
+		487FFC921EC2B26D00AB02AA /* TripAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487FFC911EC2B26D00AB02AA /* TripAnnotation.swift */; };
+		487FFCB61EC2D60900AB02AA /* Prac6.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 487FFCB41EC2D60900AB02AA /* Prac6.xcdatamodeld */; };
+		487FFCB81EC2DA8700AB02AA /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487FFCB71EC2DA8700AB02AA /* LocationService.swift */; };
 		488741E61EA85C6C0032C79F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488741E51EA85C6C0032C79F /* AppDelegate.swift */; };
 		488741E81EA85C6C0032C79F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488741E71EA85C6C0032C79F /* ViewController.swift */; };
 		488741EB1EA85C6C0032C79F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 488741E91EA85C6C0032C79F /* Main.storyboard */; };
@@ -43,6 +46,9 @@
 		485170EB1EA88BC2008E15CD /* TblViewControllerTripInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TblViewControllerTripInfo.swift; sourceTree = "<group>"; };
 		485170ED1EA88C88008E15CD /* Trip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
 		485440EE1EBAC81300E0EE08 /* TripsMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripsMapViewController.swift; sourceTree = "<group>"; };
+		487FFC911EC2B26D00AB02AA /* TripAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripAnnotation.swift; sourceTree = "<group>"; };
+		487FFCB51EC2D60900AB02AA /* test123.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = test123.xcdatamodel; sourceTree = "<group>"; };
+		487FFCB71EC2DA8700AB02AA /* LocationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 		488741E21EA85C6C0032C79F /* Prac6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prac6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		488741E51EA85C6C0032C79F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		488741E71EA85C6C0032C79F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +118,7 @@
 				488741E51EA85C6C0032C79F /* AppDelegate.swift */,
 				488741E71EA85C6C0032C79F /* ViewController.swift */,
 				488741E91EA85C6C0032C79F /* Main.storyboard */,
+				487FFC911EC2B26D00AB02AA /* TripAnnotation.swift */,
 				485170E91EA88B07008E15CD /* TblViewControllerTrips.swift */,
 				485170EB1EA88BC2008E15CD /* TblViewControllerTripInfo.swift */,
 				485170ED1EA88C88008E15CD /* Trip.swift */,
@@ -119,6 +126,8 @@
 				488741EE1EA85C6C0032C79F /* LaunchScreen.storyboard */,
 				488741F11EA85C6C0032C79F /* Info.plist */,
 				485440EE1EBAC81300E0EE08 /* TripsMapViewController.swift */,
+				487FFCB41EC2D60900AB02AA /* Prac6.xcdatamodeld */,
+				487FFCB71EC2DA8700AB02AA /* LocationService.swift */,
 			);
 			path = Prac6;
 			sourceTree = "<group>";
@@ -288,11 +297,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				487FFC921EC2B26D00AB02AA /* TripAnnotation.swift in Sources */,
 				485440EF1EBAC81300E0EE08 /* TripsMapViewController.swift in Sources */,
 				485170EE1EA88C88008E15CD /* Trip.swift in Sources */,
 				485170EA1EA88B07008E15CD /* TblViewControllerTrips.swift in Sources */,
 				488741E81EA85C6C0032C79F /* ViewController.swift in Sources */,
 				485170EC1EA88BC2008E15CD /* TblViewControllerTripInfo.swift in Sources */,
+				487FFCB61EC2D60900AB02AA /* Prac6.xcdatamodeld in Sources */,
+				487FFCB81EC2DA8700AB02AA /* LocationService.swift in Sources */,
 				488741E61EA85C6C0032C79F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -559,6 +571,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		487FFCB41EC2D60900AB02AA /* Prac6.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				487FFCB51EC2D60900AB02AA /* test123.xcdatamodel */,
+			);
+			currentVersion = 487FFCB51EC2D60900AB02AA /* test123.xcdatamodel */;
+			path = Prac6.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 488741DA1EA85C6C0032C79F /* Project object */;
 }
